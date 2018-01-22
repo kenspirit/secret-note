@@ -27,6 +27,7 @@ The authenctication of using this tool is completely based on [MetaMask][] which
 Once you installed MetaMask in any of your favorite browser and connect your account to Ethereum network, you should see similar screen as below.  
 
 ![Screen Shot](./screenshot.png)
+
 [0xb01b98a50781c454c9daa3d43eb5399ff5b604ee]: https://etherscan.io/address/0xb01b98a50781c454c9daa3d43eb5399ff5b604ee#code
 
 The Ethereum network connected to and what account is currently autenticated are shown at the top of the sreen.  The tool hosted can only be used in Main network as the smart contract is deployed there at [0xb01b98a50781c454c9daa3d43eb5399ff5b604ee][].  
