@@ -2,7 +2,7 @@
 
 ## Why am I doing this?
 
-Being involved in blockchain learning & development is something mysterious to me before.  Lately I finally got a chance to look into it.  
+Blockchain development has always been mysterious to me before.  Lately I finally got a chance to look into it.  
 
 Really learning the blockchain and make something genuinely useful in decentralized scenario is quite difficult.  This idea comes to me because many so-promised life-long storage service can suddenly terminated.  Hence, a publicly accepted blockchain seems a perfect place to put something that you never want to lose.  Your information is never in control of some particular companies.  
 
@@ -13,14 +13,14 @@ Really learning the blockchain and make something genuinely useful in decentrali
 
 All your secret notes have their own name/key which are stored in a Smart Contract in Ethereum.  Each of it points to an address in [IPFS][], which is a distributed web.  The backbone of this tool is completely decentralized and last forever unless Ethereum and IPFS themselves vanished.  This tool itself is open-source and hosted in Github.  You are freely to make a backup and host yourself if you need further assurance.  
 
-The concern you may have is that the data in public blockchain is viewable by anyone.  However, through normal access, each Ethereum address should only be able to see the note names stored by it.  Even if your notes' names are revealed, so others can get the address in IPFS, they still cannot see your secret because they are protected by your private key (HTTPS private key, NOT WALLET private key).  And this key should be known by yourself only.  That is why I emphasize that "**IF LOST, NO ONE is able to restore your notes**".
+The concern you may have is that the data in public blockchain is viewable by anyone.  However, through normal access, each Ethereum address should only be able to see the note names stored by this address only.  Even if your notes' names are revealed, so others can get the address in IPFS, they still cannot see your secret because they are protected by your private key (HTTPS private key, NOT WALLET private key).  And this key should be known by yourself only.  That is why I emphasize that "**IF LOST, NO ONE is able to restore your notes**".
 
 
 ## How to use it
 
 [MetaMask]: https://metamask.io/
 
-The authenctication of using this tool is completely based on [MetaMask][] which is another great Dapp in Ethereum.  Hence, this tool DOES NOT require you to input any password or provide your wallet private key.  And for god's sake, you should not provide those info to anybody.  
+The authentication of using this tool is completely based on [MetaMask][] which is another great Dapp in Ethereum.  Hence, this tool DOES NOT require you to input any password or provide your wallet private key.  And for god's sake, you should not provide those info to anybody.  
 
 Once you installed MetaMask in any of your favorite browser and connect your account to Ethereum network, you should see similar screen as below.  
 
@@ -28,7 +28,7 @@ Once you installed MetaMask in any of your favorite browser and connect your acc
 
 [0xb01b98a50781c454c9daa3d43eb5399ff5b604ee]: https://etherscan.io/address/0xb01b98a50781c454c9daa3d43eb5399ff5b604ee#code
 
-The Ethereum network connected to and what account is currently autenticated are shown at the top of the sreen.  The tool hosted can only be used in Main network as the smart contract is deployed there at [0xb01b98a50781c454c9daa3d43eb5399ff5b604ee][].  
+The Ethereum network connected to and what account is currently autenticated are shown at the top of the screen.  The tool hosted can only be used in Main network as the smart contract is deployed there at [0xb01b98a50781c454c9daa3d43eb5399ff5b604ee][].  
 
 Usage steps:  
 
