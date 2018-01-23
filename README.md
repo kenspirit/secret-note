@@ -6,8 +6,6 @@ Being involved in blockchain learning & development is something mysterious to m
 
 Really learning the blockchain and make something genuinely useful in decentralized scenario is quite difficult.  This idea comes to me because many so-promised life-long storage service can suddenly terminated.  Hence, a publicly accepted blockchain seems a perfect place to put something that you never want to lose.  Your information is never in control of some particular companies.  
 
-However, saving data in public blockchain means everyone can see this information.  
-
 
 ## Is it really decentralized and how safe is my secret?
 
@@ -15,7 +13,7 @@ However, saving data in public blockchain means everyone can see this informatio
 
 All your secret notes have their own name/key which are stored in a Smart Contract in Ethereum.  Each of it points to an address in [IPFS][], which is a distributed web.  The backbone of this tool is completely decentralized and last forever unless Ethereum and IPFS themselves vanished.  This tool itself is open-source and hosted in Github.  You are freely to make a backup and host yourself if you need further assurance.  
 
-As I said, the data in public blockchain is viewable by anyone.  However, through normal access, each Ethereum address should only be able to see the note names stored by it.  Even if your notes' names are revealed, so others can get the address in IPFS, they still cannot see your secret because they are protected by your private key (HTTPS private key, NOT WALLET private key).  And this key should be known by yourself only.  That is why I emphasize that "**IF LOST, NO ONE is able to restore your notes**".
+The concern you may have is that the data in public blockchain is viewable by anyone.  However, through normal access, each Ethereum address should only be able to see the note names stored by it.  Even if your notes' names are revealed, so others can get the address in IPFS, they still cannot see your secret because they are protected by your private key (HTTPS private key, NOT WALLET private key).  And this key should be known by yourself only.  That is why I emphasize that "**IF LOST, NO ONE is able to restore your notes**".
 
 
 ## How to use it
