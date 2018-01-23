@@ -49,7 +49,7 @@ _Notes: saving & seeing data must have your private key inplace.  Viewing data d
 
 Blockchain & Dapp development is really exciting.  I hope this tool can benefit any blockchain enthusiast as you.  
 
-Donation of any ER20 token to 
+Donation of any ERC20 token to 
 `0x713C8C77112858A3bd14A5FB380Fa0c4c5b1A8Bd` is greatly appreciated.  I wonder what kind of token I can get. ;)
 
 Or send Bitcoin to `196XA8S8ZwBu7UNap2A84cLzCAKoPPGck3` if you are such a generous rich in blockchain world. :D

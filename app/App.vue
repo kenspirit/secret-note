@@ -27,7 +27,7 @@
           title=""
           type="info">
           Blockchain &amp; Dapp development is really exciting.  I hope this tool can benefit any blockchain enthusiast as you.<br/>
-          Donation of any ER20 token to <code>0x713C8C77112858A3bd14A5FB380Fa0c4c5b1A8Bd</code> is greatly appreciated.  I wonder what kind of token I can get. ;)<br/>
+          Donation of any ERC20 token to <code>0x713C8C77112858A3bd14A5FB380Fa0c4c5b1A8Bd</code> is greatly appreciated.  I wonder what kind of token I can get. ;)<br/>
           Or send Bitcoin to <code>196XA8S8ZwBu7UNap2A84cLzCAKoPPGck3</code> if you are such a generous rich in blockchain world. :D
         </el-alert>
       </el-col>
@@ -114,6 +114,14 @@ let storage = null;
 let secretNoteInstance = null;
 let noteUpdatedEvent = null;
 
+// RINKEBY Testnet
+// const CONTRACT_ADDRESS = '0x6c945a26dA250D2FD8A41F9dF5959831A79355b0';
+// const CONTRACT_CREATION_BLOCK = 1613212;
+
+// Mainnet
+const CONTRACT_ADDRESS = '0xb01b98a50781c454c9daa3d43eb5399ff5b604ee';
+const CONTRACT_CREATION_BLOCK = 4950615;
+
 // Taken from Shmigers's answer in
 // https://www.reddit.com/r/ethdev/comments/6lbmhy/a_practical_guide_to_cheap_ipfs_hash_storage_in/
 function fromIPFSHash(hash) {
@@ -143,7 +151,7 @@ export default {
       dialogVisible: false,
       account: null,
       noteAccount: {
-        latestNoteBlockNumber: 0,
+        latestNoteBlockNumber: CONTRACT_CREATION_BLOCK,
         notes: []
       },
       isNoteLoaded: false,
@@ -223,7 +231,7 @@ export default {
 
       var SecretNote = web3js.eth.contract(abiArray);
 
-      secretNoteInstance = SecretNote.at('0xb01b98a50781c454c9daa3d43eb5399ff5b604ee');
+      secretNoteInstance = SecretNote.at(CONTRACT_ADDRESS);
     },
     initIPFS() {
       ipfs = IpfsApi('ipfs.infura.io', '5001', { protocol: 'https' });
